@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="google-signin-client_id" content="468010776011-svp3e2kb8ck2rq0a4q23125nrneajr11.apps.googleusercontent.com" />
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter application.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="test_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>test_app</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyAuhw-Wpa654LPouQCJ10YKq8fvV1za00w",
+    authDomain: "test-repo-rebaz.firebaseapp.com",
+    databaseURL: "https://test-repo-rebaz.firebaseio.com",
+    projectId: "test-repo-rebaz",
+    storageBucket: "test-repo-rebaz.appspot.com",
+    messagingSenderId: "555820838950",
+    appId: "1:555820838950:web:e2880c261fd671710d76e7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
